@@ -1,17 +1,17 @@
-# wait-for-it
+# wait-for
 A utility for promisifying operations that do not wait for completion but have a separate operation for fetching completion status.  
 
 ## Install
 ```sh
-npm install wait-for-it --save
+npm install wait-for-js --save
 ```
 or
 ```
-yarn add wait-for-it
+yarn add wait-for-js
 ```
 ## Usage
 ```javascript
-import waitForIt from 'wait-for-it';
+import waitForIt from 'wait-for-js';
 
 const context = {};
 

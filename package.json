@@ -1,8 +1,9 @@
 {
-  "name": "wait-for-it",
-  "version": "1.0.0",
+  "name": "wait-for-js",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "author": "meirshal",
   "scripts": {
     "build": "tsc",
     "test": "rm -rf dist && jest",
