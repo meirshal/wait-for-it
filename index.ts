@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-export default async (mutate: () => any, statusChecker: () => any, intervalMS=2000) => {
+export default async (mutate: () => any, statusChecker: () => any, intervalMS = 2000) => {
   const app = await mutate();
 
   return new Promise((resolve, reject) => {
